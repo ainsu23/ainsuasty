@@ -1,19 +1,31 @@
 project:
   type: website
-
 website:
-  title: "ainsuasty"
+  title: "{{< fa user-ninja >}}ainsuasty"
+  image: image/Insu.png
+  favicon: image/favicon-32x32.png
+  site-url: ainsuasty.com
+  google-analytics: "UA-176122758-1" 
+  repo-url: https://github.com/ainsu23/ainsuasty.git
   navbar:
-    left:
+    left: 
       - href: index.qmd
-        text: Home
-      - about.qmd
-
+        text: "{{< fa home >}} Home"
+      - href: rworld.qmd
+        text: "{{< fa earth-americas >}} My R World"
+      - href: more.qmd
+        text: "{{< fa car-side >}} And more"
+    right: 
+      - href: books.qmd
+        text: "{{< fa book >}} Recommended Books"
+      - href: cv.html
+        text: "{{< fa id-card >}} Vitae"
+      
 format:
   html:
-    theme: cosmo
-    css: styles.css
+   # theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
+    # css: styles.css
     toc: true
-
-editor: visual
-
