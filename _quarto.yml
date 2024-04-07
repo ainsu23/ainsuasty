@@ -1,5 +1,7 @@
 project:
   type: website
+execute:
+  freeze: auto
 website:
   title: "{{< fa user-ninja >}}ainsuasty"
   image: image/Insu.png
