@@ -1,9 +1,2 @@
 [[plugins]]
 package = "@quarto/netlify-plugin-quarto"
-
-[build]
-  publish = "public"
-  command = "hugo"
-
-[context.production.environment]
-  HUGO_VERSION = "0.83.1"  # Asegúrate de usar la versión de Hugo que necesitas.

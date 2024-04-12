@@ -1,1 +1,1 @@
-Sitemap: ainsuasty.com/sitemap.xml
+Sitemap: https://ainsuasty.com/sitemap.xml
