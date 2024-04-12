@@ -2,6 +2,8 @@
 title: "PowerBI Leverage with R"
 description: "Leverage PowerBI apps with R" 
 categories: ["PowerBI", "R", "functions"]
+execute: 
+  freeze: auto
 comments: 
   utterances: 
     repo: ainsu23/ainsuasty
