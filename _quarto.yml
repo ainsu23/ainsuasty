@@ -3,7 +3,7 @@ project:
 execute:
   freeze: auto
 website:
-  title: "{{< fa user-ninja >}}ainsuasty"
+  title: "ainsuasty"
   image: image/Insu.png
   favicon: image/favicon-32x32.png
   site-url: ainsuasty.com
@@ -14,9 +14,9 @@ website:
       - href: index.qmd
         text: "{{< fa home >}} Home"
       - href: rworld.qmd
-        text: "{{< fa earth-americas >}} My R World"
+        text: "{{< fa flask >}} My data Lab"
       - href: more.qmd
-        text: "{{< fa car-side >}} And more"
+        text: "{{< fa paper-plane >}} And more"
     right: 
       - href: books.qmd
         text: "{{< fa book >}} Recommended Books"

@@ -7,5 +7,38 @@
   },
   "404.qmd": {
     "404.html": "59e5887b"
+  },
+  "rworld/Blog/data_structures.qmd": {
+    "data_structures.html": "4305b256"
+  },
+  "rworld/Blog.qmd": {
+    "Blog.html": "4b889224"
+  },
+  "rworld/DataScience/testDS.qmd": {
+    "testDS.html": "773b49ec"
+  },
+  "rworld/DataScience.qmd": {
+    "DataScience.html": "393dc2f7"
+  },
+  "rworld/OperationsResearch/testOR.qmd": {
+    "testOR.html": "aab8edb5"
+  },
+  "rworld/OperationsResearch.qmd": {
+    "OperationsResearch.html": "6284d9de"
+  },
+  "rworld/Shiny/testShiny.qmd": {
+    "testShiny.html": "0c30985e"
+  },
+  "rworld/Shiny.qmd": {
+    "Shiny.html": "24bafa2c"
+  },
+  "rworld.qmd": {
+    "rworld.html": "c8bb6cbe"
+  },
+  "rworld/Blog/interact_with_firebase.qmd": {
+    "interact_with_firebase.html": "ec4cd822"
+  },
+  "rworld/Blog/PowerBI_R.qmd": {
+    "PowerBI_R.html": "acbb5f5d"
   }
 }
