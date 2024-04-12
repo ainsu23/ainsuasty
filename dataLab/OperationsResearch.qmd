@@ -1,0 +1,13 @@
+---
+title: "Operations Research"
+subtitle: "ampl, gurobi, ..."
+description: "Application of OR problems"
+adjusting: c
+category: Models
+image: ../image/OperationsResearch.png
+css: ../style.css
+listing: 
+  contents: OperationsResearch
+  type: grid
+  categories: true
+---

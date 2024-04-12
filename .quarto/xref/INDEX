@@ -40,5 +40,38 @@
   },
   "rworld/Blog/PowerBI_R.qmd": {
     "PowerBI_R.html": "acbb5f5d"
+  },
+  "dataLab/Blog/data_structures.qmd": {
+    "data_structures.html": "ab631b75"
+  },
+  "dataLab/Blog/interact_with_firebase.qmd": {
+    "interact_with_firebase.html": "68140d5c"
+  },
+  "dataLab/Blog/PowerBI_R.qmd": {
+    "PowerBI_R.html": "594770b7"
+  },
+  "dataLab/Blog/spark_desde_R.qmd": {
+    "spark_desde_R.html": "ba7f7e27"
+  },
+  "dataLab/Blog.qmd": {
+    "Blog.html": "671311bf"
+  },
+  "dataLab/DataScience/testDS.qmd": {
+    "testDS.html": "c8740a49"
+  },
+  "dataLab/DataScience.qmd": {
+    "DataScience.html": "916563eb"
+  },
+  "dataLab/OperationsResearch/testOR.qmd": {
+    "testOR.html": "dd2d5544"
+  },
+  "dataLab/OperationsResearch.qmd": {
+    "OperationsResearch.html": "6dd47dd7"
+  },
+  "dataLab/Shiny/testShiny.qmd": {
+    "testShiny.html": "c4c0eb34"
+  },
+  "dataLab/Shiny.qmd": {
+    "Shiny.html": "f04ebf0c"
   }
 }

@@ -1,7 +1,7 @@
 ---
-title: "RWorld"
+title: "Data Lab"
 listing:
-  contents: "rworld/*.qmd"
+  contents: "dataLab/*.qmd"
   type: grid
   categories: false 
   sort: 
