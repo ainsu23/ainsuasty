@@ -2,9 +2,8 @@
 title: "PowerBI Leverage with R"
 description: "Leverage PowerBI apps with R" 
 categories: ["PowerBI", "R", "functions"]
-comments: 
-  utterances: 
-    repo: ainsu23/ainsuasty
+metadata-files: 
+  - ../../_dataLabContent.yml
 format: 
   html: 
     css: ["../../css/base.css"]

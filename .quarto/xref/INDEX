@@ -76,5 +76,14 @@
   },
   "dataLab/OperationsResearch/AMPL_R_API.qmd": {
     "AMPL_R_API.html": "bdc44ef2"
+  },
+  "dataLab/Shiny/data_structures.qmd": {
+    "data_structures.html": "d099bc77"
+  },
+  "dataLab/Shiny/learning_polish.qmd": {
+    "learning_polish.html": "f3d62bbc"
+  },
+  "dataLab/Shiny/mastering_shiny.qmd": {
+    "mastering_shiny.html": "7cf55ba8"
   }
 }

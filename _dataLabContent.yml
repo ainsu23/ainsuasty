@@ -1,0 +1,14 @@
+format:
+  html:
+    code-links:
+      - text: Blog
+        href: ../Blog.html
+      - text: Data Science
+        href: ../DataScience.html
+      - text: Operations Research
+        href: ../OperationsResearch.html
+      - text: Shiny
+        href: ../Shiny.html
+comments: 
+  utterances: 
+    repo: ainsu23/ainsuasty
