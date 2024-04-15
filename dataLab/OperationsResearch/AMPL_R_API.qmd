@@ -3,9 +3,8 @@ title: "AMPL R API"
 subtitle: "Operations Research"
 categories: ["Prescriptive Analytics", "AMPL", "MIP"]
 image: ../../image/AMPL_Free.PNG
-comments: 
-  utterances: 
-    repo: ainsu23/ainsuasty_quarto
+metadata-files: 
+  - ../../_dataLabContent.yml
 format: 
   html:
     css: css/blogs.css

@@ -1,0 +1,29 @@
+---
+title: Learning Polish
+subtitle: "App with interactive games."
+description: "Discover an interactive and enjoyable way to learn Polish with this application, 
+featuring specially developed games designed to enhance your learning experience. 
+Explore the different modules that will help you improve your vocabulary and 
+language skills in a fun and effective way." 
+image: ../../image/polish_shiny.png
+categories: ["firebase", "API"]
+metadata-files: 
+  - ../../_dataLabContent.yml
+---
+
+**Application Modules:**
+
+**Vocabulary**: This module integrates with Google sheet to store data, allowing 
+you to add, delete, or modify words in real-time using R functions. Access dynamic 
+and adaptable learning tailored to your needs.
+
+**Games**: The application includes two games designed to reinforce your learning:
+
+**Category List**: Drag and drop words into their corresponding categories. Ideal 
+for learning vocabulary classification.
+**Guess the Word**: A game where you arrange words to form correct sentences. 
+Improve your grammar and language comprehension.
+
+Click on [Go to App](https://afinsuasty.shinyapps.io/learning_polish/) to start 
+learning today and visit [Check Code Here](https://github.com/ainsu23/shiny-examples)
+to explore how the application is built.

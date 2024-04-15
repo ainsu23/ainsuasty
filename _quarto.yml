@@ -3,6 +3,9 @@ project:
 execute:
   freeze: auto
 website:
+  open-graph:
+    locale: es_ES
+    site-name: ainsuasty
   title: "ainsuasty"
   image: image/Insu.png
   favicon: image/favicon-32x32.png
@@ -30,4 +33,3 @@ format:
       light: flatly
       dark: darkly
     # css: styles.css
-    toc: true

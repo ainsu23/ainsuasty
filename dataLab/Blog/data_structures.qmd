@@ -2,9 +2,8 @@
 title: Data Structures with R6Class
 description: "Implement data structures with R6Class" 
 categories: ["R6Class", "Data Structures"]
-comments: 
-  utterances: 
-    repo: ainsu23/ainsuasty
+metadata-files: 
+  - ../../_dataLabContent.yml
 ---
 
 # Data Structures
