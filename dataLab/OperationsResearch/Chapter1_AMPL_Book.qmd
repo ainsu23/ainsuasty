@@ -5,6 +5,8 @@ categories: ["Linear programming", "R", "AMPL", "python"]
 image: ../../image/linear_programming.png
 metadata-files: 
   - ../../_dataLabContent.yml
+execute: 
+  cache: true
 ---
 
 Hi Folks!
