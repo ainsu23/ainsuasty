@@ -1,5 +1,5 @@
-ampl-module-base==20240404
-ampl-module-highs==20240320
+ampl_module_base==20240404
+ampl_module_highs==20240320
 amplpy==0.13.3
 ampltools==0.7.5
 anyio==4.3.0
