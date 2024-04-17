@@ -7,25 +7,95 @@
     "text": "Blog\n\n\nR, Python, SQL, Spark, among others\n\n\nGeneral tips for R, Git, SQL or python.\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Science\n\n\nWith tidymodels\n\n\nMachine learning models developed with tidymodels\n\n\n\n\n\n\n\n\n\n\n\n\n\nOperations Research\n\n\nampl, gurobi, …\n\n\nApplication of OR problems\n\n\n\n\n\n\n\n\n\n\n\n\n\nShiny\n\n\nApps\n\n\nDashboards created with Shiny library for R\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "dataLab/Shiny.html",
-    "href": "dataLab/Shiny.html",
-    "title": "Shiny",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Andrés Felipe Insuasty Ch.",
     "section": "",
-    "text": "Data Structures\n\n\nApplication for Developing Data Structures\n\n\n\nR6Class\n\n\nData Structures\n\n\n\nApplication for Developing Data Structures\n\n\n\n\n\n\n\n\n\n\n\n\n\nLearning Polish\n\n\nApp with interactive games.\n\n\n\nfirebase\n\n\nAPI\n\n\n\nDiscover an interactive and enjoyable way to learn Polish with this application, featuring specially developed games designed to enhance your learning experience. Explore…\n\n\n\n\n\n\n\n\n\n\n\n\n\nMastering Shiny\n\n\nBy Hadley Wickham\n\n\n\nmodules\n\n\n\nSolution to exercices mastering Shiny’s book.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "twitter\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n\n  \n  \n\nHola | Hi | Cześć\n\nPlease receive a warm welcome to my website. You will find three main sections:\n\nDataLab: Explore a variety of resources I’ve compiled from my experience, including blogs on programming (R, Python, SQL, Spark, PowerBI), my own Shiny apps, Data Science projects and operations research where I apply OR techniques using tools like R and Python.\nPersonal Projects and More: Visit my “Torito & Misiu” Facebook page for inspirational quotes. Also find more about my personal life, family, travels, and hobbies.\nRecommended Books: Discover books I’ve read along with key lessons and their application in my daily life."
   },
   {
-    "objectID": "dataLab/Shiny/learning_polish.html",
-    "href": "dataLab/Shiny/learning_polish.html",
-    "title": "Learning Polish",
+    "objectID": "dataLab/Shiny/mastering_shiny.html",
+    "href": "dataLab/Shiny/mastering_shiny.html",
+    "title": "Mastering Shiny",
     "section": "",
-    "text": "Application Modules:\nVocabulary: This module integrates with Google sheet to store data, allowing you to add, delete, or modify words in real-time using R functions. Access dynamic and adaptable learning tailored to your needs.\nGames: The application includes two games designed to reinforce your learning:\nCategory List: Drag and drop words into their corresponding categories. Ideal for learning vocabulary classification. Guess the Word: A game where you arrange words to form correct sentences. Improve your grammar and language comprehension.\nClick on Go to App to start learning today and visit Check Code Here to explore how the application is built."
+    "text": "This application solves exercises proposed on each chapter of the book.\n\nGo to App\nCheck code here"
   },
   {
-    "objectID": "dataLab/OperationsResearch.html",
-    "href": "dataLab/OperationsResearch.html",
-    "title": "Operations Research",
+    "objectID": "dataLab/Shiny/data_structures.html",
+    "href": "dataLab/Shiny/data_structures.html",
+    "title": "Data Structures",
     "section": "",
-    "text": "AMPL R API\n\n\n\nPrescriptive Analytics\n\n\nAMPL\n\n\nMIP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Go to App\nCheck code here\n\nThis application is designed to both learn and create applications based on the field of data structures.\nIt features a double-linked list representation with random words. Users must guess the word from a word cloud. The letters entered are compared to a linked list stored in a R6Class."
+  },
+  {
+    "objectID": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html",
+    "href": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html",
+    "title": "Chapter 1 - AMPL Book",
+    "section": "",
+    "text": "Hi Folks!\nSince my bachelor degree I always wanted to resolved the exercises of AMPL’s book, In my course I studied with AMPL and in my master I also used AMPL, I find it very easy to get into operation research world!.\nHave fun with me during solving some exercises from the book, I have used the API’s that AMPL is giving us, so some problems are solved using python and others with R.\nI tried to keep the original model and data in different files and folders. When a model requires to be changed, I do it using the ampl API."
+  },
+  {
+    "objectID": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#installing-rampl-and-amplpy",
+    "href": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#installing-rampl-and-amplpy",
+    "title": "Chapter 1 - AMPL Book",
+    "section": "0. Installing rAMPL and amplpy",
+    "text": "0. Installing rAMPL and amplpy\n\nrAMPL\n\nrenv::install(\"https://ampl.com/dl/API/rAMPL.tar.gz\", repos=NULL, INSTALL_opts=c(\"--no-multiarch\", \"--no-staged-install\"))\n\n\n\namplpy\nIn order to use the free license of ampl community, it is required to input the license number after –uuid.\n```{r}\nreticulate::py_install(\"jupyter\")\nreticulate::py_install(\"amplpy\")\nreticulate::py_install(\"pandas\")\nsystem2(reticulate::py_exe(), c(\"-m\", \"amplpy.modules\", \"install\", \"highs\"))\nsystem2(reticulate::py_exe(), c(\"-m\", \"amplpy.modules\", \"run\", \"amplkey\", \"activate\", \"--UUID\"))\nsystem2(reticulate::py_exe(), c(\"-m\", \"amplpy.modules\", \"run\", \"ampl\", \"-vvq\"))\n\n```"
+  },
+  {
+    "objectID": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#a.-subjetct-to-budget",
+    "href": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#a.-subjetct-to-budget",
+    "title": "Chapter 1 - AMPL Book",
+    "section": "a. Subjetct to budget",
+    "text": "a. Subjetct to budget\n\n# creating vectors with information\nunits &lt;- c(\"tv_mins\", \"magazine_pages\")\ncost &lt;- c(20000, 10000)\nreach &lt;- c(1.8, 1)\nmin_units &lt;- c(10, 1)\n\n# Loading class and setting solver\nampl &lt;- new(AMPL, env)\nampl$setOption(\"solver\",\"HiGHS\") \n\nampl$eval(\"param p_budget := 1000000;\")\n# Loading model\nampl$read(\"models/1.1 Advertising_campaigns.mod\")\n\n# Setting Data\nampl$setData(\n  data.frame(\n    units = units, \n    cost = cost, \n    reach = reach, \n    min_units = min_units\n  ), 1, \"units\"\n) \n# Formulation\nampl$eval(\"var buy{u in units} &gt;= min_units[u];\")\nampl$eval(\"maximize Audience: sum {u in units} buy[u] * reach[u];\")\nampl$eval(\"subject to budget: sum {u in units} buy[u] * cost[u] &lt;= p_budget;\")\n\nampl$solve()\n\nHiGHS 1.7.0: \b\b\b\b\b\b\b\b\b\b\b\b\bHiGHS 1.7.0: optimal solution; objective 98\n0 simplex iterations\n0 barrier iterations\n\nprint(ampl$getVariable(\"buy\")$getValues())\n\n          index0 buy.val\n1 magazine_pages      80\n2        tv_mins      10\n\nampl$close()"
+  },
+  {
+    "objectID": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#b.-adding-constraint-time-needed-to-build-campaign",
+    "href": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#b.-adding-constraint-time-needed-to-build-campaign",
+    "title": "Chapter 1 - AMPL Book",
+    "section": "b. Adding constraint time needed to build campaign",
+    "text": "b. Adding constraint time needed to build campaign\n\nunits &lt;- c(\"tv_mins\", \"magazine_pages\")\ncost &lt;- c(20000, 10000)\nreach &lt;- c(1.8, 1)\nmin_units &lt;- c(10, 1)\nperson_weeks &lt;- c(1, 3)\n\n# loading class and setting solver\nampl &lt;- new(AMPL, env)\nampl$setOption(\"solver\",\"highs\") \n\n# Adding parameters\nampl$eval(\"param p_budget := 1000000;\")\nampl$eval(\"param max_person_weeks := 100;\")\n# loading model\nampl$read(\"models/1.1 advertising_campaigns.mod\") # read model located in folder models\n\n# setting data\nampl$setData(\n  data.frame(\n    units = units, \n    cost = cost, \n    reach = reach, \n    min_units = min_units,\n    person_weeks = person_weeks\n  ), 1, \"units\"\n) \n# formulation\nampl$eval(\"var buy{u in units} &gt;= min_units[u];\")\nampl$eval(\"maximize audience: sum {u in units} buy[u] * reach[u];\")\nampl$eval(\"subject to budget: sum {u in units} buy[u] * cost[u] &lt;= p_budget;\")\nampl$eval(\"subject to capacity: sum {u in units} buy[u] * person_weeks[u] &lt;= max_person_weeks;\")\n\nampl$solve()\n\nHiGHS 1.7.0: \b\b\b\b\b\b\b\b\b\b\b\b\bHiGHS 1.7.0: optimal solution; objective 92\n2 simplex iterations\n0 barrier iterations\n\nampl$getVariable(\"buy\")$getValues()\n\n          index0 buy.val\n1 magazine_pages      20\n2        tv_mins      40\n\nampl$close()"
+  },
+  {
+    "objectID": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#c.-adding-channel-radio",
+    "href": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#c.-adding-channel-radio",
+    "title": "Chapter 1 - AMPL Book",
+    "section": "c. Adding channel radio",
+    "text": "c. Adding channel radio\nModel keeps the same as previous, but data changes.\n\n# Adding channel to data\nunits &lt;- c(\"tv_mins\", \"magazine_pages\", \"radio_min\")\ncost &lt;- c(20000, 10000, 2000)\nreach &lt;- c(1.8, 1, 0.25)\nmin_units &lt;- c(10, 1, 1)\nperson_weeks &lt;- c(1, 3, 1/7)\n\n# loading class and setting solver\nampl &lt;- new(AMPL, env)\nampl$setOption(\"solver\",\"HiGHS\") \n\nampl$eval(\"param p_budget := 1000000;\")\nampl$eval(\"param max_person_weeks := 100;\")\n# loading model\nampl$read(\"models/1.1 advertising_campaigns.mod\") # read model located in folder models\n\n# setting data\nampl$setData(\n  data.frame(\n    units = units, \n    cost = cost, \n    reach = reach, \n    min_units = min_units,\n    person_weeks = person_weeks\n  ), 1, \"units\"\n) \n# formulation\nampl$eval(\"var buy{u in units} &gt;= min_units[u];\")\nampl$eval(\"maximize audience: sum {u in units} buy[u] * reach[u];\")\nampl$eval(\"subject to budget: sum {u in units} buy[u] * cost[u] &lt;= p_budget;\")\nampl$eval(\"subject to capacity: sum {u in units} buy[u] * person_weeks[u] &lt;= max_person_weeks;\")\n\nampl$solve()\n\nHiGHS 1.7.0: \b\b\b\b\b\b\b\b\b\b\b\b\bHiGHS 1.7.0: optimal solution; objective 117.75\n1 simplex iterations\n0 barrier iterations\n\nampl$getVariable(\"buy\")$getValues()\n\n          index0 buy.val\n1 magazine_pages       1\n2      radio_min     395\n3        tv_mins      10\n\nampl$close()"
+  },
+  {
+    "objectID": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#steel4-model",
+    "href": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#steel4-model",
+    "title": "Chapter 1 - AMPL Book",
+    "section": "Steel4 model",
+    "text": "Steel4 model\n\namplpysteel_original.modsteel_original.dat\n\n\n\nfrom amplpy import AMPL, modules\nmodules.load() # load all modules\nampl = AMPL() # instantiate AMPL object}\nampl.option[\"solver\"] = \"highs\"\nampl.read(\"models/steel_original.mod\") # read model located in folder models\nampl.read_data(\"data/steel_original.dat\") # read dat located in folder models\nampl.solve()\n\nHiGHS 1.7.0: \b\b\b\b\b\b\b\b\b\b\b\b\bHiGHS 1.7.0: optimal solution; objective 190071.4286\n2 simplex iterations\n0 barrier iterations\n\ndf = ampl.getVariable(\"Make\").getValues()\nprint(df)\n\n   index0    |   Make.val  \n  'bands'    | 3357.142857142858\n  'coils'    |     500     \n  'plate'    | 3142.857142857143\n\nampl.reset()\nampl.close()\n\n\n\nModel developed in AMPL\n```{AMPL}\n\nset PROD; # products\nset STAGE; # stages\n\nparam rate {PROD,STAGE} &gt; 0; # tons per hour in each stage\nparam avail {STAGE} &gt;= 0; # hours available/week in each stage\nparam profit {PROD}; # profit per ton\nparam commit {PROD} &gt;= 0; # lower limit on tons sold in week\nparam market {PROD} &gt;= 0; # upper limit on tons sold in week\nvar Make {p in PROD} &gt;= commit[p], &lt;= market[p]; # tons produced\n\nmaximize Total_Profit: sum {p in PROD} profit[p] * Make[p];\n# Objective: total profits from all products\n\nsubject to Time {s in STAGE}:\nsum {p in PROD} (1/rate[p,s]) * Make[p] &lt;= avail[s];\n\n# In each stage: total of hours used by all\n# products may not exceed hours available\n```\n\n\nData input in AMPL\n```{AMPL}\n\nset PROD := bands coils plate;\nset STAGE := reheat roll;\n\nparam rate: reheat roll :=\n  bands 200 200\n  coils 200 140\n  plate 200 160 ;\n\nparam: profit commit market :=\n  bands 25 1000 6000\n  coils 30 500 4000\n  plate 29 750 3500 ;\n\nparam avail := reheat 35 roll 40 ;\n```"
+  },
+  {
+    "objectID": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#a.-change-constrain-to-equal",
+    "href": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#a.-change-constrain-to-equal",
+    "title": "Chapter 1 - AMPL Book",
+    "section": "a. Change constrain to equal",
+    "text": "a. Change constrain to equal\nAs the objective functions is a maximization, the problem would try to achive the equality as their is not another constraint. Therefore, changing the equality from &lt;= to = does not change the result.\n```{AMPL}\nsubject to Time {s in STAGE}:\nsum {p in PROD} (1/rate[p,s]) * Make[p] = avail[s];\n```"
+  },
+  {
+    "objectID": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#b.-max-total-weigth-contraint",
+    "href": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#b.-max-total-weigth-contraint",
+    "title": "Chapter 1 - AMPL Book",
+    "section": "b. Max total weigth contraint",
+    "text": "b. Max total weigth contraint\nAdding a new constraint to put a upper bound to the variable Make.\n\n# Loading class and setting solver\nampl = AMPL() # instantiate AMPL object\nampl.option[\"solver\"] = \"highs\"\n\n# Load model and data\nampl.read(\"models/steel_original.mod\") # read model located in folder models\nampl.read_data(\"data/steel_original.dat\") # read dat located in folder models\n\n## Adding new constraint to limit tons manufactured.\nampl.eval(\"param max_weight := 6500;\")\nampl.eval(\"subject to MaxWeight: sum {p in PROD} Make[p] &lt;= max_weight;\")\n\n# Solving problem\nampl.solve()\n\nHiGHS 1.7.0: \b\b\b\b\b\b\b\b\b\b\b\b\bHiGHS 1.7.0: optimal solution; objective 183791.6667\n3 simplex iterations\n0 barrier iterations\n\ndf = ampl.getVariable(\"Make\").getValues()\nprint(df)\n\n   index0    |   Make.val  \n  'bands'    | 1541.666666666667\n  'coils'    | 1458.333333333333\n  'plate'    |     3500    \n\nampl.close()"
+  },
+  {
+    "objectID": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#c.-produce-as-many-tons-as-possible",
+    "href": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#c.-produce-as-many-tons-as-possible",
+    "title": "Chapter 1 - AMPL Book",
+    "section": "c. Produce as many tons as possible",
+    "text": "c. Produce as many tons as possible\nThe idea behind increase number of tons is to keep the objective functions, nevertheless, without the params profit.\n```{AMPL}\n\nmaximize tons: sum {p in PROD} Make[p];\n# Objective: total profits from all products\n\n```"
+  },
+  {
+    "objectID": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#d.-lower-bounds-as-constraints.",
+    "href": "dataLab/OperationsResearch/Chapter1_AMPL_Book.html#d.-lower-bounds-as-constraints.",
+    "title": "Chapter 1 - AMPL Book",
+    "section": "d. Lower bounds as constraints.",
+    "text": "d. Lower bounds as constraints.\nIn this exercise we are asked to change the minimum of the tons make for each product, therefore, we required to redeclare the var to delete the lower bound.\n\n# import  libraries\nimport pandas as pd\n\n# Loading class and setting solver\nampl = AMPL() # instantiate AMPL object\nampl.option[\"solver\"] = \"highs\"\n\n# Load model and data\nampl.read(\"models/steel_original.mod\") # read model located in folder models\nampl.read_data(\"data/steel_original.dat\") # read dat located in folder models\n\n## Changing in formulation\nampl.eval(\"param shares {PROD};\")\n\n# Creation of a list to input ampl\nshares_list = {\"bands\": 0.4, \"coils\": 0.1, \"plate\": 0.4}\n\n# Inputing the list into the param shares created\nampl.param[\"shares\"] = {PROD: shares for PROD, (shares) in shares_list.items()}\n\n# Redeclare var Make to delete lower bound\nampl.eval(\"redeclare var Make {p in PROD} &lt;= market[p];\")\n\n# Create a new constraint with the lower bound by product\nampl.eval(\"subject to min_shares {j in PROD}: Make[j] &gt;= shares[j] * sum {k in PROD} Make[k];\")\n\n# Solving problem\nampl.solve()\n\nHiGHS 1.7.0: \b\b\b\b\b\b\b\b\b\b\b\b\bHiGHS 1.7.0: optimal solution; objective 189700\n5 simplex iterations\n0 barrier iterations\n\ndf = ampl.getVariable(\"Make\").getValues()\nprint(df)\n\n   index0    |   Make.val  \n  'bands'    |     3500    \n  'coils'    |     700     \n  'plate'    |     2800    \n\nampl.close()"
   },
   {
     "objectID": "dataLab/DataScience.html",
@@ -82,6 +152,13 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Recommended Books",
+    "section": "",
+    "text": "AMPL - Operation Research Language\n\n\nAMPL Book explaining AMPL Language\n\n\n\n\n\n\n\n\n\n\n\n\n\nMastering Shiny\n\n\nMastering Shiny by Harley Wickham\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "dataLab/Blog/interact_with_firebase.html",
@@ -168,24 +245,38 @@
     "text": "Assign clients to commercials\nIn a previous job, I worked as the responsible of commercials campaigns and one task was to assign the clients to the commercials having into account some constrains; such as:\n\nMonthly capacity by hierarchy\nOne client had to be attended by one salesperson\nOne commercial with XX knowledge could not attend one client that would requires attention on KK.\n\nThis task was done with excel creating pivot tables and crossing them and counting manually which client was assigned and tried to reach the capacity constrain. Nevertheless, this problem is a classic problem to be solved with operations research.\n\nParameters\n\nn_clients &lt;- 84\nn_commercials &lt;- 4\nn_campaigns &lt;- 4\nn_rol &lt;- 3\n\n\n\nData\nThe data used was generated using R and stored in dataframes. AMPL can read dataframes, so it is not need of having the data vectorized, as for example, in ompr package.\n\nCommercialClientsCampaignsJoined tables\n\n\nThis table has the list of workers in sales. For each person, contains the rol, the conversion_rate (average), and capacity in the month.\n\ncommercials &lt;- data.frame(\n  \"seller_id\" = sample(1:n_commercials, replace = FALSE),\n  \"rol\" = 1:n_commercials %&gt;% \n      purrr::map(function(x){\n        sample(LETTERS[1:n_rol],1,replace = TRUE)\n      }) %&gt;% \n    unlist(),\n  \"convertion_rate\" = sample(20:100, n_commercials, replace = FALSE) / 100\n  ) %&gt;% \n  left_join(\n    data.frame(\n      \"rol\" = LETTERS[1:n_rol],\n      \"capacity\" = 1:n_rol %&gt;% \n          purrr::map(function(x){\n            sample(10:20,1,replace = FALSE)\n          }) %&gt;% \n        unlist()\n    ),\n    by = \"rol\"\n    )\ncommercials %&gt;% arrange(seller_id) %&gt;% DT::datatable()\n\n\n\n\n\n\n\nThis table has the list of clients and campaigns to be offer.\n\nclients &lt;- data.frame(\n  \"client_id\" = sample(1:n_clients,replace = FALSE),\n  \"campaign\" = 1 %&gt;% purrr::map(function(x){\n    paste(\"campaign_\",sample(1:n_campaigns, n_clients, replace = TRUE),sep = \"\")\n  }) %&gt;% unlist()\n) %&gt;% \n  left_join(\n    data.frame(\n      \"campaign\" = paste0(\"campaign_\", sample(1:n_campaigns, n_campaigns, replace = FALSE)),\n      \"benefit\" = 1:n_campaigns %&gt;% \n          purrr::map(function(x){\n            sample(100:1000, 1, replace = FALSE)\n          }) %&gt;% \n        unlist()\n    ),\n    by = \"campaign\"\n  )\nclients %&gt;% arrange(client_id) %&gt;% DT::datatable()\n\n\n\n\n\n\n\nThis table has which role can attend each campaign.\n\ncampaigns &lt;- data.frame(\n  \"campaign\" = paste(\"campaign_\",1:n_campaigns,sep = \"\"),\n  \"rol\" = 1:(n_campaigns) %&gt;% purrr::map(function(x){\n    sample(LETTERS[1:n_rol],1,replace = TRUE)\n  }) %&gt;% unlist()\n) %&gt;% distinct()\n\ncampaigns %&gt;% arrange(rol) %&gt;% DT::datatable()\n\n\n\n\n\n\n\nFinally, the previous tables are joined to check data before start modelling.\n\nfinnal &lt;- clients %&gt;% \n  left_join(campaigns, by = \"campaign\") %&gt;% \n  left_join(commercials, by = \"rol\") %&gt;% \n  mutate(benefit = benefit * convertion_rate)\n\nWarning in left_join(., commercials, by = \"rol\"): Detected an unexpected many-to-many relationship between `x` and `y`.\nℹ Row 4 of `x` matches multiple rows in `y`.\nℹ Row 2 of `y` matches multiple rows in `x`.\nℹ If a many-to-many relationship is expected, set `relationship =\n  \"many-to-many\"` to silence this warning.\n\nfinnal %&gt;% DT::datatable(filter = 'top')\n\n\n\n\n\n\n\n\n\n\nModel\nNow it is time to model, it is a good practice (even in AMPL) to have the .model, .data and .run files separated in one folder. As I build here the data, I just create the data as vectors for sets or scalar parameters or dataframes for tables\n\nModel run in RAMPL .mod\n\n\n\n## Build data to pass AMPL Model\n\n### sets\nClients &lt;- distinct(finnal, client_id)[,1]\nCommercials &lt;- distinct(finnal, seller_id)[,1]\n### paramets associated to commercial\ncapacities &lt;- distinct(finnal, seller_id, capacity)[,2]\n### parameter associated to client and commercial\nbenefit &lt;- select(finnal, client_id, seller_id, benefit) %&gt;% \n  tidyr::pivot_wider(names_from = seller_id, values_from = benefit) %&gt;% \n  mutate(across(where(is.numeric), ~tidyr::replace_na(.x, 1))) %&gt;% \n  tidyr::pivot_longer(!client_id, names_to = \"seller_id\", values_to = \"benefit\") %&gt;% \n  mutate(seller_id = as.numeric(seller_id))\n\n## .run \nampl &lt;- new(AMPL, env) # Create class ampl\n\n# Setting solver to be used. Due to limit license (max 300 vars or contrains), \n# I change to HiGHS solver, allowed with AMPL CE..\n# an open source solver.\nampl$setOption(\"solver\",\"HiGHS\") \n\n#reading model written in .mod file (AMPL)\nampl$read(\"models/assign.mod\") # Read model located in folder models\n\n# Defines sets data and parameters.\n\nampl$setData(data.frame(Clients = Clients), 1, \"Clients\") \nampl$setData(\n  data.frame(Commercials = Commercials, capacity = capacities), \n  1, \n  \"Commercials\"\n)\nampl$setData(benefit, 2, \"\")\n\nampl$solve()\n\nHiGHS 1.7.0: \b\b\b\b\b\b\b\b\b\b\b\b\bHiGHS 1.7.0: optimal solution; objective 15727.92\n10 simplex iterations\n1 branching nodes\n\n## Get objective solution\ncat(sprintf(\"Objective: %f\\n\", ampl$getObjective(\"Profit\")$value()))\n\nObjective: 15727.920000\n\n# Get the values of the variable assign in a data.frame\ndf &lt;- ampl$getVariable(\"assign\")$getValues()\n\ndf &lt;- df %&gt;% \n  rename(\n    seller_id = index1,\n    client_id = index0,\n    solution = assign.val\n  ) %&gt;% \n  mutate(solution = round(solution))\n\nampl$close()\n\n\n\nContains the formulation of the problem written in AMPL language.\n```{AMPL}\n\nset Clients;\nset Commercials;\n\nparam capacity {Commercials} &gt; 0;\nparam benefit {Clients, Commercials} &gt;= 0;\n\nvar assign {Clients, Commercials} binary;\n\nmaximize Profit:\n  sum {i in Clients, j in Commercials} benefit[i,j] * assign[i,j];\n  \nsubject to Supply {i in Clients}:\n  sum {j in Commercials} assign[i,j] &lt;= 1;\nsubject to capacity_constrain {j in Commercials}:\n  sum {i in Clients} assign[i,j] &lt;= capacity[j];\n```\n\n\n\n\nSolutionConstrain capacityConstrain assign\n\n\n\n\n\n\n\n\nNote\n\n\n\nSome clients were not assigned due to capacity of the sales force.\n\n\n\ndf %&gt;% \n  DT::datatable(filter = 'top')\n\n\n\n\n\n\n\n\ndf %&gt;% \n  group_by(seller_id) %&gt;% \n  summarise(num_clients = sum(solution)) %&gt;% \n  DT::datatable(filter = 'top')\n\n\n\n\n\n\n\n\ndf %&gt;% \n  group_by(client_id) %&gt;% \n  summarise(num_commercials = sum(solution)) %&gt;% \n  DT::datatable(filter = 'top')\n\n\n\n\n\n\n\n\nThanks for reading, Hope this would be helpfull for you or your organization."
   },
   {
-    "objectID": "dataLab/Shiny/data_structures.html",
-    "href": "dataLab/Shiny/data_structures.html",
-    "title": "Data Structures",
+    "objectID": "dataLab/OperationsResearch.html",
+    "href": "dataLab/OperationsResearch.html",
+    "title": "Operations Research",
     "section": "",
-    "text": "Go to App\nCheck code here\n\nThis application is designed to both learn and create applications based on the field of data structures.\nIt features a double-linked list representation with random words. Users must guess the word from a word cloud. The letters entered are compared to a linked list stored in a R6Class."
+    "text": "AMPL R API\n\n\n\nPrescriptive Analytics\n\n\nAMPL\n\n\nMIP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 1 - AMPL Book\n\n\n\nLinear programming\n\n\nR\n\n\nAMPL\n\n\npython\n\n\n\nSolution to exercises in Chapter 1\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "dataLab/Shiny/mastering_shiny.html",
-    "href": "dataLab/Shiny/mastering_shiny.html",
-    "title": "Mastering Shiny",
+    "objectID": "dataLab/Shiny/learning_polish.html",
+    "href": "dataLab/Shiny/learning_polish.html",
+    "title": "Learning Polish",
     "section": "",
-    "text": "This application solves exercises proposed on each chapter of the book.\n\nGo to App\nCheck code here"
+    "text": "Application Modules:\nVocabulary: This module integrates with Google sheet to store data, allowing you to add, delete, or modify words in real-time using R functions. Access dynamic and adaptable learning tailored to your needs.\nGames: The application includes two games designed to reinforce your learning:\nCategory List: Drag and drop words into their corresponding categories. Ideal for learning vocabulary classification. Guess the Word: A game where you arrange words to form correct sentences. Improve your grammar and language comprehension.\nClick on Go to App to start learning today and visit Check Code Here to explore how the application is built."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Andrés Felipe Insuasty Ch.",
+    "objectID": "dataLab/Shiny.html",
+    "href": "dataLab/Shiny.html",
+    "title": "Shiny",
     "section": "",
-    "text": "Hola | Hi | Cześć\nI love learn and share what I have learned, for that reason, I share with you personal experiences and profesional projects developing Data Science."
+    "text": "Data Structures\n\n\nApplication for Developing Data Structures\n\n\n\nR6Class\n\n\nData Structures\n\n\n\nApplication for Developing Data Structures\n\n\n\n\n\n\n\n\n\n\n\n\n\nLearning Polish\n\n\nApp with interactive games.\n\n\n\nfirebase\n\n\nAPI\n\n\n\nDiscover an interactive and enjoyable way to learn Polish with this application, featuring specially developed games designed to enhance your learning experience. Explore…\n\n\n\n\n\n\n\n\n\n\n\n\n\nMastering Shiny\n\n\nBy Hadley Wickham\n\n\n\nmodules\n\n\n\nSolution to exercices mastering Shiny’s book.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "more/about_me.html",
+    "href": "more/about_me.html",
+    "title": "About me",
+    "section": "",
+    "text": "(a) MSc in Statistics and Operation Research\n\n\n\n\n\n\n\n\n\n\n\n(b) Travelling\n\n\n\n\n\n\n\nFigure 1: Happy moments\nMy name is Andrés Felipe Insuasty Ch. (Please call me: Insu),\nI am from Cali, Colombia. Capital of salsa dancing 💃, full of tastes in its food, beauty of the people and great parties or festivals .\nOn 2022 I got married  in Pasto, Colombia with Klaudia from Poland, On 23rd of September 2022, I turned 32 years in Bogotá. Same year, on November 21st, I became a happy full time dad  of Oliver.\nCheck my resume for professional information"
+  },
+  {
+    "objectID": "more/about_me.html#projects",
+    "href": "more/about_me.html#projects",
+    "title": "About me",
+    "section": "PROJECTS 📖",
+    "text": "PROJECTS 📖\nAll would be uploaded to my GitHub\n\nHOBBIES 😎\nSome fun facts about me:\n\nI used to practice Karate , Soccer .\nI love biking and jogging.\nLove dancing Salsa\nLearning to take pictures Check my Instagram 📷\nSome cooking recipies explained by me:\n\n\nRacuchy de Manzana, Polish recipy 🍎😋\n\n\nTravelling a lot around the world✈️🚄\n\nThanks for reading!"
   }
 ]

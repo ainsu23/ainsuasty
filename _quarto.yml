@@ -6,7 +6,7 @@ website:
   open-graph:
     locale: es_ES
     site-name: ainsuasty
-  title: "ainsuasty"
+  title: AInsuasty
   image: image/Insu.png
   favicon: image/favicon-32x32.png
   site-url: ainsuasty.com
@@ -14,8 +14,6 @@ website:
   repo-url: https://github.com/ainsu23/ainsuasty.git
   navbar:
     left: 
-      - href: index.qmd
-        text: "{{< fa home >}} Home"
       - href: rworld.qmd
         text: "{{< fa flask >}} My data Lab"
       - href: more.qmd
@@ -25,11 +23,8 @@ website:
         text: "{{< fa book >}} Recommended Books"
       - href: cv.html
         text: "{{< fa id-card >}} Vitae"
-      
 format:
   html:
-   # theme: cosmo
-    theme:
+   theme:
       light: flatly
       dark: darkly
-    # css: styles.css

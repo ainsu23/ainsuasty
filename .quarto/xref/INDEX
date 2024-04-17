@@ -85,5 +85,26 @@
   },
   "dataLab/Shiny/mastering_shiny.qmd": {
     "mastering_shiny.html": "7cf55ba8"
+  },
+  "Books/AMPL/test.qmd": {
+    "test.html": "59729aa1"
+  },
+  "Books/AMPL.qmd": {
+    "AMPL.html": "6a22f13a"
+  },
+  "Books/Mastering Shiny/test.qmd": {
+    "test.html": "fac57337"
+  },
+  "Books/Mastering_Shiny.qmd": {
+    "Mastering_Shiny.html": "e20436e6"
+  },
+  "books.qmd": {
+    "books.html": "06430a85"
+  },
+  "dataLab/OperationsResearch/Chapter1_AMPL_Book.qmd": {
+    "Chapter1_AMPL_Book.html": "1829bf51"
+  },
+  "more/about_me.qmd": {
+    "about_me.html": "bcea47df"
   }
 }

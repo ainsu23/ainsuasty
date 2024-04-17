@@ -3,6 +3,7 @@ title: "Andrés Felipe Insuasty Ch."
 subtitle: "Data Scientist & Dad"
 image: image/ainsuasty.png
 about: 
+  id: hero-heading
   template: trestles
   image-width: 10em
   image-shape: round
@@ -17,10 +18,24 @@ about:
      text: LinkedIn
      href: https://www.linkedin.com/in/afinsuasty/
 css: styles.css
+html:
+  page-layout: full
 ---
 
+::: {#hero-heading style="text-align:justify"}
+::: {style="text-align:center"}
+**Hola \| Hi \| Cześć**
+:::
 
-Hola | Hi | Cześć
+Please receive a warm welcome to my website. You will find three main sections:
 
-I love learn and share what I have learned, for that reason, I share with you
-personal experiences and profesional projects developing `Data Science`.
+-   **DataLab**: Explore a variety of resources I've compiled from my experience, including `blogs` on programming (R, Python, SQL, Spark, PowerBI), my own `Shiny` apps, `Data Science projects` and `operations research` where I apply OR techniques using tools like R and Python.
+
+-   **Personal Projects and More**: Visit my "Torito & Misiu" Facebook page for inspirational quotes. Also find more about my personal life, family, travels, and hobbies.
+
+-   **Recommended Books**: Discover books I've read along with key lessons and their application in my daily life.
+
+::: {.inspirational-quote style="position: relative; text-align: center"}
+![](image/ruler.png){alt="magen de fondo" width="100"}
+:::
+:::

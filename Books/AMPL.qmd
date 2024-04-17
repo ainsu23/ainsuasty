@@ -1,0 +1,6 @@
+---
+title: "AMPL - Operation Research Language"
+image: ../image/ampl_book.jpg
+description: "AMPL Book explaining AMPL Language"
+categories: ["Mathematical Modelling", "LP", "MIP"]
+---
