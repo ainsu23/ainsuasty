@@ -15,3 +15,37 @@ img:hover {
 .card-subtitle {
   font-size: small;
 }
+/*
+@keyframes backgroundAnimation {
+    0% { background-color: #f1c40f; }
+    50% { background-color: #e74c3c; }
+    100% { background-color: #9b59b6; }
+}
+
+body {
+    animation: backgroundAnimation 10s infinite;
+}
+*/
+.inspirational-quote {
+  position: relative;
+  text-align: center;
+}
+
+.inspirational-quote img {
+  width: 100%;
+  height: auto;
+}
+
+.quote-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  color: white; /* Establece el color del texto a blanco */
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Opcional: mejora la legibilidad */
+}

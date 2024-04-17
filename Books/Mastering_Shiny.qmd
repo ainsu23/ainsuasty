@@ -1,0 +1,6 @@
+---
+title: "Mastering Shiny"
+image: ../image/shiny.png
+description: "Mastering Shiny by Harley Wickham"
+categories: ["BI", "Shiny", "Programming"]
+---
